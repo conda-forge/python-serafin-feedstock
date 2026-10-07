@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.1"
+  version: "0.2.2"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/python-serafin/python_serafin-${{ version }}.tar.gz
-  sha256: 94926e8bdb46d70cc94393ce702e291327520c2d0c4fbd8dd25019eaedc0f232
+  sha256: bed92a701dd8efde6fe84a7c73d97afc7c8da9635de034ed6cf41b4e3dbcb82e
 
 build:
   noarch: python
